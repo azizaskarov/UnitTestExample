@@ -9,6 +9,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EMTests", "..\EMTests\EMTes
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorClient", "..\BlazorClient\BlazorClient.csproj", "{FFBF8B47-166D-49EA-B8D1-A0959BCE7257}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "api", "api", "{114399FB-6AE8-438B-A5BA-E0D6C46B6089}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "client", "client", "{E58317D4-7A2A-49ED-AE38-23B5BF646A02}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{DE05710F-591C-4350-BE56-0CA534EF3EB2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,6 +36,11 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8EEB6323-14F0-48EA-A343-38292FCF8E13} = {114399FB-6AE8-438B-A5BA-E0D6C46B6089}
+		{12F01CF6-25AE-4FE2-9504-663ACC566A27} = {DE05710F-591C-4350-BE56-0CA534EF3EB2}
+		{FFBF8B47-166D-49EA-B8D1-A0959BCE7257} = {E58317D4-7A2A-49ED-AE38-23B5BF646A02}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C37F343A-D730-4F85-9132-041CCA7316D6}
